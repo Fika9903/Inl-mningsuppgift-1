@@ -55,9 +55,7 @@ void hexdump(const unsigned char *start, int maxbytes) {
 }
 
 struct bild {
-	int offset;
-	int width;
-	int height;
+	int offset, width, height;
 };
 
 // Förslag på funktion: parseBMP()
